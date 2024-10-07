@@ -1,0 +1,152 @@
+* {
+  font-family: "JetBrains Mono Nerd Font";
+	font-weight: 400;
+  font-size: 14px;
+	color: #000000;
+}
+
+window#waybar {
+  background-color: rgba(55, 46, 49, 0.8);
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+	color: #000000;
+	padding: 10px;
+}
+
+window#waybar.hidden {
+  opacity: 0.2;
+}
+
+#workspaces {
+	background-color: #556661;
+	min-width: 16px;
+	border-radius: 50px;
+	padding: 0px 8px;
+	margin: 10px 1px;
+	margin-left: 10px;
+}
+
+#workspaces button {
+	font-size: 0px;
+	box-shadow: none;
+	background-color: #362C30;
+	border-radius: 50px;
+	padding: 0px 5px;
+	margin: 10px 2px;
+}
+
+#workspaces button.active{
+	padding: 0px 20px;
+	margin: 10px 2px;
+}
+
+#workspaces button.focused {
+    background-color: #64727D;
+    box-shadow: inset 0 -3px #ffffff;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#language,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#mpd {
+    padding: 0 10px;
+    color: #000000;
+}
+
+#window {
+  background-color: #556661;
+	min-width: 16px;
+	border-radius: 50px;
+	padding: 0px 8px;
+	margin: 10px 1px;
+}
+
+#clock {
+  background-color: #556661;
+	min-width: 16px;
+	border-radius: 50px;
+	padding: 0px 8px;
+	margin: 10px 1px;
+}
+
+#battery {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+#battery.charging, #battery.plugged {
+    color: #ffffff;
+    background-color: #26A65B;
+}
+
+#cpu {
+    background-color: #2ecc71;
+    color: #000000;
+}
+
+#memory {
+    background-color: #9b59b6;
+}
+
+#network {
+  background-color: #556661;
+	min-width: 16px;
+	border-radius: 50px;
+	padding: 0px 8px;
+	margin: 10px 1px;
+}
+
+#network.disconnected {
+    background-color: #f53c3c;
+}
+
+#pulseaudio {
+  background-color: #556661;
+	min-width: 16px;
+	border-radius: 50px;
+	padding: 0px 8px;
+	margin: 10px 1px;
+}
+
+#pulseaudio.muted {
+    background-color: #90b1b1;
+    color: #2a5c45;
+}
+
+#tray {
+  background-color: #556661;
+	min-width: 16px;
+	border-radius: 50px;
+	padding: 0px 8px;
+	margin: 10px 1px;
+}
+
+#language {
+  background: #556661;
+  min-width: 16px;
+	border-radius: 50px;
+	margin: 10px 1px;
+	padding: 0px 8px;
+}
+
+#custom-power {
+	background-color: #FF6E67;
+	border-radius: 50px;
+	padding: 0px 15px;
+	margin: 10px 1px;
+	margin-right: 10px;
+}
